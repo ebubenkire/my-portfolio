@@ -7,7 +7,8 @@ const Footer = () => {
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={footer_logo} alt='' />
+                {/* <img src={footer_logo} alt='' /> */}
+                <a href="#home" className='footer-logo'>Godfred Adjin</a>
                 <p>I am a Graphic Designer from, Ghana with 4 years of experience in companies like DTI (Design and Technology Institute) Godah and Nkire Designs. </p>
             </div>
             <div className="footer-top-right">

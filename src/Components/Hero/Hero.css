@@ -2,10 +2,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 35px;
+    gap: 0px; 
+    /* 35 */
+   
 }
 .hero img{
     margin-top: 150px;
+    
 }
 .hero h1{
     text-align: center;
@@ -30,6 +33,7 @@
     align-items: center;
     gap: 25px;
     font-weight: 500;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 .hero-connect{
@@ -43,7 +47,21 @@
     border-radius: 50px;
     border: 2px solid #fff;
     cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
 }
+
+.hero-resume a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* .btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+} */
+
+
 .hero-resume:hover{
     border-color: #B415FF;
 }
